@@ -1,0 +1,11 @@
+{
+  "name": "node-sample-mongodb-api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "mongodb-rest": "^0.10.12"
+  }
+}

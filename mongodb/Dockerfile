@@ -1,0 +1,1 @@
+FROM anton107/tutum-docker-mongodb

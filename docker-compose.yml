@@ -1,0 +1,12 @@
+app:
+  build: .
+  ports:
+    - "80:3000"
+  links:
+    - mongodb
+mongodb:
+    build: ./mongodb
+    environment:
+      - AUTH=no
+    ports:
+      - "27017:27017"
